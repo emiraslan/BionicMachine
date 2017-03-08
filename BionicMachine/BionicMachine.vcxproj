@@ -116,9 +116,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Deneme.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Main_1.cpp" />
+    <ClCompile Include="Movement.cpp" />
     <ClCompile Include="Second_main.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="background.png" />
+    <Image Include="box1.png" />
+    <Image Include="coin.png" />
+    <Image Include="enemy.png" />
+    <Image Include="ground1.png" />
+    <Image Include="player1.png" />
+    <Image Include="seamless_background.jpg" />
+    <Image Include="tiles.png" />
+    <Image Include="tiles2.png" />
+    <Image Include="tiles3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="collision.txt" />
+    <Text Include="map1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Movement.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

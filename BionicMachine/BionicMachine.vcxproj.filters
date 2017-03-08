@@ -24,5 +24,61 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Main_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Movement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Deneme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tiles.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tiles2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="player1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ground1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="seamless_background.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="coin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="box1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tiles3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="map1.txt" />
+    <Text Include="collision.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
