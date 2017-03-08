@@ -31,7 +31,7 @@ struct Data
 
 };
 
-class PhysicalCharacteristics
+class PhysicalCharacteristics_new
 {
 protected:
 	
@@ -46,7 +46,7 @@ public:
 
 };
 
-class Player : public PhysicalCharacteristics
+class Player : public PhysicalCharacteristics_new
 {
 public:
 	sf::Sprite playerSprite;
